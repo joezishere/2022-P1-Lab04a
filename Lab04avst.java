@@ -9,6 +9,7 @@ public class Lab04avst
     {
         System.out.println("Lab04a, Student Version\n");
 
+
         double Principal  = 250000;
         double AnnualRate = 4.85;
         double Years   = 30;
@@ -25,11 +26,20 @@ public class Lab04avst
 
 
 
+
+
+
+
         System.out.println("Principal"+"    " + "$"+Principal);
         System.out.println("Annual Rate"+"    " + AnnualRate + "%");
         System.out.println("Number of years"+"    " + Years);
 
         System.out.println("Monthly payment"+"    " +"$"+ MonthlyPayment);
+
+
+
+        System.out.println();
+
     }
 }
 
