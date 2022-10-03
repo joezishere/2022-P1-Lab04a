@@ -19,8 +19,8 @@ public class Lab04avst
         double Denominator = Math.pow(1 + monthlyrate, Months) - 1;
         double C = Numerator / Denominator;
         double MonthlyPayment = C * Principal;
-
-
+        double totalPayments = MonthlyPayment * Months;
+        double totalintrest = totalPayments - Principal;
 
 
 
@@ -31,15 +31,15 @@ public class Lab04avst
 
 
         System.out.println("Principal"+"    " + "$"+Principal);
-        System.out.println("Annual Rate"+"    " + AnnualRate + "%");
-        System.out.println("Number of years"+"    " + Years);
+        System.out.println("Annual Rate"+"  " + AnnualRate + "%");
+        System.out.println("Number of years"+"  " + Years);
 
-        System.out.println("Monthly payment"+"    " +"$"+ MonthlyPayment);
+        System.out.println("Monthly payment"+"  " +"$"+ MonthlyPayment);
 
 
 
-        System.out.println();
-
+        System.out.println("Total Payments"+"   "+"$"+totalPayments);
+        System.out.println("Total Interest"+"   "+"$"+totalintrest);
     }
 }
 
